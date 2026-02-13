@@ -1,11 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>I am Noelle Holiday and I am spinning</title>
+<title>I am Noelle Holiday and I am spinning</title>    
+  <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+        
+        #video {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            transform: translateX(-50%) translateY(-50%);
+            object-fit: cover;
+        }
+    </style>
 </head>
 <body>
 
-<video src=imnoelholiday.mp4></video>
+<video src=imnoelholiday.mp4 autoplay></video>
 
 </body>
 </html> 
